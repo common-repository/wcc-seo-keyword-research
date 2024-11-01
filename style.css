@@ -1,0 +1,1351 @@
+.btn-success {
+
+    color: #fff;
+
+    background-color: #5cb85c;
+
+    border-color: #4cae4c;
+
+}
+
+.btn {
+
+    display: inline-block;
+
+    margin-bottom: 0;
+
+    font-weight: 400;
+
+    text-align: center;
+
+    white-space: nowrap;
+
+    vertical-align: middle;
+
+    -ms-touch-action: manipulation;
+
+    touch-action: manipulation;
+
+    cursor: pointer;
+
+    background-image: none;
+
+    border: 1px solid transparent;
+
+    padding: 10px 50px;
+
+    font-size: 16px;
+
+    line-height: 1.42857143;
+
+    border-radius: 4px;
+
+    -webkit-user-select: none;
+
+    -moz-user-select: none;
+
+    -ms-user-select: none;
+
+    user-select: none;
+
+    background: #2196f3;
+
+    border-color: #2196f3;
+
+    box-shadow: 0px 0px 10px #ececec;
+
+    /* text-transform: uppercase; */
+
+}
+
+.text-right{
+
+    text-align: right;
+
+}
+
+label.form-label{
+
+    font-weight: 700;
+
+}
+
+
+
+
+
+
+
+.wpforms-form label{
+
+ 
+
+}
+
+#general_tab .wp-list-table td{
+
+  padding: 15px 0;
+
+}
+
+ 
+
+/** WPFORMS Input Textarea **/
+
+.wpforms-form input[type="text"],.wpforms-form input[type="number"], .wpforms-form textarea, .wpforms-form select{
+
+   width: 100%;
+
+   padding: .2rem .75rem;
+
+   font-size: 1rem;
+
+   line-height: 1.5;
+
+   color: #495057;
+
+   background-color: #fff;
+
+   background-clip: padding-box;
+
+   border: 1px solid #ced4da;
+
+   border-radius: .25rem;
+
+   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+   color: #03a9f4;
+
+   height: 35px;
+
+}
+
+
+
+
+
+.switch-field {
+
+  display: flex;
+
+  overflow: hidden;
+
+}
+
+
+
+.switch-field input {
+
+  position: absolute !important;
+
+  clip: rect(0, 0, 0, 0);
+
+  height: 1px;
+
+  width: 1px;
+
+  border: 0;
+
+  overflow: hidden;
+
+}
+
+
+
+.switch-field label {
+
+  background-color: #e4e4e4;
+
+  color: rgba(0, 0, 0, 0.6);
+
+  font-size: 14px;
+
+  line-height: 1;
+
+  text-align: center;
+
+  padding: 10px 16px;
+
+  margin-right: -1px;
+
+  border: 1px solid #2196f3;
+
+  /* box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1); */
+
+  transition: all 0.1s ease-in-out;
+
+}
+
+
+
+.switch-field label:hover {
+
+  cursor: pointer;
+
+}
+
+
+
+.switch-field input:checked + label {
+
+  background-color: #2196f3;
+
+  box-shadow: none;
+
+  color: #ffffff;
+
+}
+
+
+
+.switch-field label:first-of-type {
+
+  border-radius: 4px 0 0 4px;
+
+}
+
+
+
+.switch-field label:last-of-type {
+
+  border-radius: 0 4px 4px 0;
+
+}
+
+
+
+
+
+code {
+
+  font-family: Consolas,"courier new";
+
+  color: crimson;
+
+  padding: 2px;
+
+  font-size: 105%;
+
+}
+
+
+
+p.sortcode_section {
+
+    border: 1px solid #4caf50;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    color: #000000;
+
+}
+
+
+
+.upgrade_text {
+
+    display: inline-block;
+
+    line-height: 1.4;
+
+    padding: 11px 15px;
+
+    font-size: 14px;
+
+    text-align: left;
+
+    margin: 25px 20px 0 2px;
+
+    background-color: #fff;
+
+    border-left: 4px solid #4caf50;
+
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+
+}
+
+.width-70{
+
+    width: 70%;
+
+}
+
+
+
+
+
+
+
+/* Style the tab */
+
+.tab {
+
+  float: left;
+
+  border-right: 1px solid #ccc;
+
+  background-color: #f1f1f1;
+
+  width: 20%;
+
+  min-height: 55vh;
+
+}
+
+.tab .vb_tab_btn{
+
+    padding: 0 15px;
+
+}
+
+.tab .vb_tab_btn button img{
+
+    width: 17px;
+
+    margin-right: 10px;
+
+}
+
+
+
+.tab .vb_tab_btn button .vb_a_img{
+
+    display: none;
+
+}
+
+.tab button.active .vb_na_img{
+
+  display: none;
+
+}
+
+.tab button.active .vb_a_img{
+
+  display: inline;
+
+}
+
+
+
+
+
+/* Style the buttons inside the tab */
+
+.tab button {
+
+  display: block;
+
+  background-color: inherit;
+
+  color: black;
+
+  padding: 12px 16px;
+
+  width: 100%;
+
+  border: none;
+
+  outline: none;
+
+  text-align: left;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+  font-size: 17px;
+
+  border-radius: 7px;
+
+  margin-top: 5px;
+
+  line-height: 1.4;
+
+}
+
+
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+
+  background-color: #ddd;
+
+}
+
+
+
+/* Create an active/current "tab button" class */
+
+.tab button.active {
+
+  background-color: #2196f3;
+
+  color: #ffffff;
+
+}
+
+
+
+/* Style the tab content */
+
+.tabcontent {
+
+  float: left;
+
+  padding: 0px 12px;
+
+  width: 76%;
+
+  border-left: none;
+
+}
+
+.vb_clear_both{
+
+    clear: both;
+
+}.btn-success {
+
+    color: #fff;
+
+    background-color: #5cb85c;
+
+    border-color: #4cae4c;
+
+}
+
+.btn {
+
+    display: inline-block;
+
+    margin-bottom: 0;
+
+    font-weight: 400;
+
+    text-align: center;
+
+    white-space: nowrap;
+
+    vertical-align: middle;
+
+    -ms-touch-action: manipulation;
+
+    touch-action: manipulation;
+
+    cursor: pointer;
+
+    background-image: none;
+
+    border: 1px solid transparent;
+
+    padding: 10px 50px;
+
+    font-size: 16px;
+
+    line-height: 1.42857143;
+
+    border-radius: 4px;
+
+    -webkit-user-select: none;
+
+    -moz-user-select: none;
+
+    -ms-user-select: none;
+
+    user-select: none;
+
+    background: #2196f3;
+
+    border-color: #2196f3;
+
+    box-shadow: 0px 0px 10px #ececec;
+
+    /* text-transform: uppercase; */
+
+}
+
+.text-right{
+
+    text-align: right;
+
+}
+
+label.form-label{
+
+    font-weight: 700;
+
+}
+
+
+
+
+
+
+
+.wpforms-form label{
+
+ 
+
+}
+
+ 
+
+/** WPFORMS Input Textarea **/
+
+.wpforms-form input[type="text"], .wpforms-form textarea{
+
+   width: 100%;
+
+    padding: .6rem .75rem;
+
+    font-size: 1rem;
+
+    line-height: 1.5;
+
+    color: #495057;
+
+    background-color: #fff;
+
+    background-clip: padding-box;
+
+    border: 1px solid #ced4da;
+
+    border-radius: .25rem;
+
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+    color: #03a9f4;
+
+}
+
+
+
+
+
+.switch-field {
+
+  display: flex;
+
+  overflow: hidden;
+
+}
+
+
+
+.switch-field input {
+
+  position: absolute !important;
+
+  clip: rect(0, 0, 0, 0);
+
+  height: 1px;
+
+  width: 1px;
+
+  border: 0;
+
+  overflow: hidden;
+
+}
+
+
+
+.switch-field label {
+
+  background-color: #e4e4e4;
+
+  color: rgba(0, 0, 0, 0.6);
+
+  font-size: 14px;
+
+  line-height: 1;
+
+  text-align: center;
+
+  padding: 10px 16px;
+
+  margin-right: -1px;
+
+  border: 1px solid #2196f3;
+
+  /* box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1); */
+
+  transition: all 0.1s ease-in-out;
+
+}
+
+
+
+.switch-field label:hover {
+
+  cursor: pointer;
+
+}
+
+
+
+.switch-field input:checked + label {
+
+  background-color: #2196f3;
+
+  box-shadow: none;
+
+  color: #ffffff;
+
+}
+
+
+
+.switch-field label:first-of-type {
+
+  border-radius: 4px 0 0 4px;
+
+}
+
+
+
+.switch-field label:last-of-type {
+
+  border-radius: 0 4px 4px 0;
+
+}
+
+
+
+
+
+code {
+
+  font-family: Consolas,"courier new";
+
+  color: crimson;
+
+  padding: 2px;
+
+  font-size: 105%;
+
+}
+
+
+
+p.sortcode_section {
+
+    border: 1px solid #4caf50;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    color: #000000;
+
+}
+
+
+
+.upgrade_text {
+
+    display: inline-block;
+
+    line-height: 1.4;
+
+    padding: 11px 15px;
+
+    font-size: 14px;
+
+    text-align: left;
+
+    margin: 25px 20px 0 2px;
+
+    background-color: #fff;
+
+    border-left: 4px solid #4caf50;
+
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+
+}
+
+.width-70{
+
+    width: 70%;
+
+}
+
+
+
+
+
+
+
+/* Style the tab */
+
+.tab {
+
+  float: left;
+
+  border-right: 1px solid #ccc;
+
+  background-color: #f1f1f1;
+
+  width: 20%;
+
+  min-height: 60vh;
+
+}
+
+.tab .vb_tab_btn{
+
+    padding: 0 15px;
+
+}
+
+.tab .vb_tab_btn button img{
+
+    width: 17px;
+
+    margin-right: 10px;
+
+}
+
+
+
+.tab .vb_tab_btn button .vb_a_img{
+
+    display: none;
+
+}
+
+.tab button.active .vb_na_img{
+
+  display: none;
+
+}
+
+.tab button.active .vb_a_img{
+
+  display: inline;
+
+}
+
+
+
+
+
+/* Style the buttons inside the tab */
+
+.tab button {
+
+  display: block;
+
+  background-color: inherit;
+
+  color: black;
+
+  padding: 12px 16px;
+
+  width: 100%;
+
+  border: none;
+
+  outline: none;
+
+  text-align: left;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+  font-size: 17px;
+
+  border-radius: 5px;
+
+  margin-top: 5px;
+
+  line-height: 1.4;
+
+}
+
+
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+
+  background-color: #ddd;
+
+}
+
+
+
+/* Create an active/current "tab button" class */
+
+.tab button.active {
+
+  background-color: #2196f3;
+
+  color: #ffffff;
+
+}
+
+
+
+/* Style the tab content */
+
+
+
+.tabcontent {
+
+  float: left;
+
+  padding: 0px 12px;
+
+  width: 76%;
+
+  border-left: none;
+
+}
+
+.vb_clear_both{
+
+    clear: both;
+
+}
+
+.tablinks.active{
+
+  cursor: initial;
+
+}
+
+.btn:focus,.btn:hover{
+
+  color: #ffffff;
+
+}
+
+.btn:hover{
+
+  background: #0775cc;
+
+}
+
+
+
+
+
+.vb_row{
+
+  margin: 0 -15px;
+
+}
+
+.vb_row:after,.vb_row:before{
+
+    display: table;
+
+    clear: both;
+
+    content: " ";
+
+}
+
+.vb-col-sm-6{
+
+  width: 45%;
+
+  float: left;
+
+  padding: 0 15px;
+
+}
+
+.nopadding {
+
+    padding: 0px !important;
+
+}
+
+
+
+.mt-10 {
+
+    margin-top: 10px;
+
+}
+
+
+
+.mt-20 {
+
+    margin-top: 20px;
+
+}
+
+
+
+.mt-30 {
+
+    margin-top: 30px;
+
+}
+
+
+
+.mt-40 {
+
+    margin-top: 40px;
+
+}
+
+
+
+.mt-50 {
+
+    margin-top: 50px;
+
+}
+
+
+
+.main-title {
+
+    padding: 15px;
+
+    text-align: center;
+
+    margin-bottom: 40px
+
+}
+
+
+
+    .main-title h2 {
+
+        margin: 0px;
+
+        color: #2b2b2b;
+
+        font-weight: 600;
+
+        font-size: 30px;
+
+    }
+
+
+
+    .main-title p {
+
+        font-size: 21px;
+
+        font-weight: 300;
+
+    }
+
+.price-box {
+
+    background: #fff;
+
+    text-align: center;
+
+    padding: 50px 20px;
+
+    border: 1px solid #ececec;
+
+    margin-bottom: 30px;
+
+    min-height: 280px;
+
+}
+
+    .price-box h2 {
+
+        font-weight: 600;
+
+        margin: 0px 0px 30px 0px;
+
+        font-size: 20px
+
+    }
+
+    .price-box p{
+
+        color: #616161
+
+    }
+
+    .price-box h3 {
+
+        font-weight: 300;
+
+        margin: 20px 0px 0px 0px;
+
+        font-size: 70px;
+
+        color: #333;
+
+        line-height: 1.2;
+
+    }
+
+    .price-box h6 {
+
+        margin: 0px;
+
+        font-weight: 400;
+
+        color: #ababab
+
+    }
+
+    .price-box input[type='submit'], .price-box input[type='submit']:focus{
+
+        display: inline-block;
+
+        margin-top: 40px;
+
+        color: #fff;
+
+        border: 1px solid #2196f3;
+
+        padding: 7px 20px;
+
+        text-decoration: none;
+
+        transition: 0.4s;
+
+        background: #2196f3;
+
+        cursor: pointer;
+
+    }
+
+        .price-box input[type='submit']:hover {
+
+            text-decoration: none;
+
+            background: #0775cc;
+
+            transition: 0.4s;
+
+        }
+
+    .price-box input[type='submit'][disabled]{
+
+      cursor: default;
+
+      border: 1px solid #4caf50;
+
+      background: #4caf50;
+
+    }
+
+.color-green {
+
+    color: #1af3d6
+
+}
+
+.color-purple {
+
+    color: #673ab7
+
+}
+
+.color-blue {
+
+    color: #3f51b5
+
+}
+
+
+
+.wcc-mt-3{
+
+  margin-top: 3rem;
+
+}
+
+.wcc-keywords-table{
+
+  width: 100%;
+
+}
+
+.wcc-keywords-table tr td{
+
+  padding: 10px 5px
+
+}
+
+.wcc-keywords-table .form-control{
+
+      width: 100% !important;
+
+    border-radius: 0px !important;
+
+    box-shadow: none !important;
+
+    border: 2px solid #adadad !important;
+
+    padding: 7px 15px !important;
+
+    height: auto !important;
+
+    color: #222 !important;
+
+}
+
+.wcc-keywords-btn{
+
+  background: #3f51b5;
+
+    color: #fff;
+
+    border-color: #3f51b5;
+
+    border-radius: 0px;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    border: none;
+
+    line-height: 1;
+
+    font-size: 17px;
+
+    padding: 10px 26px 12px 26px;
+
+}
+
+.wcc-keywords-btn:hover{
+
+  color: #fff;
+
+  text-decoration: none;
+
+  opacity: 0.7;
+
+}
+
+.wcc-keyword-tab button{
+
+  border-radius: 0px !important
+
+}
+
+.wcc-keyword-tab button.active{
+
+  background: #3f51b5 !important;
+
+  border-radius: 0px  !important;
+
+  box-shadow: 0px 0px 6px #717171 !important
+
+}
+
+.wcc-full{
+
+  width: 100%;
+
+  display: block;
+
+  box-sizing: border-box;
+
+  position: relative;
+
+  padding-left: 15px;
+
+  padding-right: 15px;
+
+  min-height: 1px
+
+}
+
+.wcc-half{
+
+  width: 50%;
+
+  display: block;
+
+  box-sizing: border-box;
+
+  position: relative;
+
+  float: left;
+
+  padding-left: 15px;
+
+  padding-right: 15px;
+
+  min-height: 1px
+
+}
+
+.wcc-keyword-header-1{
+
+  background: #3f51b5 !important;
+
+  padding: 12px !important;
+
+  margin-bottom: 30px !important;
+
+}
+
+.wcc-keyword-header-1 h2{
+
+  font-size: 20px !important;
+
+  color: #fff !important;
+
+  margin: 0px !important
+
+}
+
+.wcc-keyword-pad-0-15{
+
+  padding: 0px 15px !important
+
+}
+
+#wcc_seo_keyword_research_search_form input {
+
+    border: 1px solid #3f51b5 !important;
+
+    border-radius: 0 !important;
+
+    background: #fff !important;
+
+    font-size: 17px !important;
+
+    font-weight: 500 !important;
+
+    color: #333 !important;
+
+    padding: 10px 21px !important;
+
+    display: inline-block !important;
+
+    box-shadow: none !important;
+
+}
+
+#wcc_seo_keyword_research_search_form #wcc_seo_keyword_research_submit {
+
+    font-weight: bold !important;
+
+    border-radius: 0 !important;
+
+    margin-left: -1px !important;
+
+    position: relative !important;
+
+    background: #3f51b5 !important;
+
+    text-decoration: none !important;
+
+    text-transform: capitalize !important;
+
+    color: #fff !important;
+
+    cursor: pointer !important;
+
+    border-color: transparent !important;
+
+}
+
+.wcc-keywords-btn-sm{
+
+  background: #3f51b5 !important;
+
+    color: #fff !important;
+
+    border-color: #3f51b5 !important;
+
+    border-radius: 0px !important;
+
+    text-decoration: none !important;
+
+    cursor: pointer !important;
+
+    border: none !important;
+
+    line-height: 1 !important;
+
+    font-size: 13px !important;
+
+    padding: 10px 15px 10px 15px !important;
+
+}
+
+.wcc-keywords-btn-sm:hover{
+
+  color: #fff !important;
+
+  text-decoration: none !important;
+
+  opacity: 0.7 !important;
+
+}
+
+
+
+
+
+.wcc-card { position: relative; display: flex; flex-direction: column; min-width: 0; word-wrap: break-word; background-color: #fff; background-clip: border-box; border: 0 solid rgba(0, 0, 0, 0.125); border-radius: 4px; }
+
+.wcc-card-header { padding: 0.75rem 1.25rem; margin-bottom: 0; background-color: rgba(0, 0, 0, 0.07); border-bottom: 0 solid rgba(0, 0, 0, 0.125); }
+
+.wcc-card-body { flex: 1 1 auto; min-height: 1px; padding: 1.25rem; border: 1px solid #ddd;}
+
+.wcc-generate-api-box{width: 50%;margin: auto;margin-top: 15px;}
+
+.wcc-card-title { margin: 0; margin-bottom: 0.75rem; }
+
+.wcc-dashboard-title-1{text-align: center; color: #4caf50; font-weight: 700; line-height: 1.4}
+
+.wcc-text-center{text-align: center;}
+
+.wcc-mt-40{margin-top: 40px}
+
+
+.wcc-dashboard-form-control{
+    width: 100%  !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    border: 2px solid #adadad !important;
+    padding: 7px 15px !important;
+    height: auto !important;
+    color: #222 !important
+}
+.wcc-dashboard-form-control:focus{
+  border-color: #777 !important
+}
+.wcc-dashboard-btn{
+    background: linear-gradient(90deg, #2196f3, #00bcd4);
+    box-shadow: 0px 0px 10px #999;
+    padding: 15px 25px;
+    line-height: 1;
+    border-radius: 100px;
+    display: inline-block;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.4s;
+    text-decoration: none;
+}
+.wcc-dashboard-btn:hover{
+  box-shadow: none;
+  transition: 0.4s;
+  color: #fff
+}
+.wcc-dashboard-table-setting table{
+  width: 100%
+}
